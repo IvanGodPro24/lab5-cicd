@@ -88,4 +88,4 @@ jobs:
           path: terraform
 
       - name: Terraform Apply
-        run: terraform apply -input=false -auto-approve tfplan
+        run: terraform apply -input=false -auto-approve tfplan 
